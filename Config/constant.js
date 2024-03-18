@@ -49,6 +49,8 @@ exports.STATUS_MESSAGES = {
     RESET_PASSWORD_ALREADY: "You already have reset the password with this token.",
 
     EXISTS: {
+        GOAL: 'Goal is already exist!',
+        GOAL_CATEGORY: 'Goal category is already exist!',
         ACCESS_TYPE: 'Access Type is already exist!',
         USERNAME_OR_EMAIL: 'Username or email is already exist!',
         USER: "User already exist!",
@@ -64,6 +66,8 @@ exports.STATUS_MESSAGES = {
     },
 
     NOT_FOUND: {
+        GOAL: 'Goal is not available in our system.',
+        GOAL_CATEGORY: 'Goal category is not available in our system.',
         USERNAME: 'Username is not available in our system.',
         ACCESS_TYPE: 'Access Type is not available in our system.',
         USER: "You are not available in our system!",
@@ -107,6 +111,21 @@ exports.STATUS_MESSAGES = {
         NOT_VERIFIED: "Your email address is not verified.",
         INACTIVE: "Your email address is not active.",
         INVALID: "Please enter valid email & password."
+    },
+    GOAL:{
+        ADDED: "Goal has been added successfully.",
+        UPDATED: "Goal been updated successfully.",
+        DELETED: "Goal been deleted successfully.",
+    },
+    GOAL_CATEGORY:{
+        ADDED: "Goal category has been added successfully.",
+        UPDATED: "Goal category been updated successfully.",
+        DELETED: "Goal category been deleted successfully.",
+    },
+    GOAL_DURATION:{
+        ADDED: "Goal duration has been added successfully.",
+        UPDATED: "Goal duration been updated successfully.",
+        DELETED: "Goal duration been deleted successfully.",
     },
     ACCESS_TYPE: {
         ADDED: "Access type has been added successfully.",
