@@ -64,6 +64,7 @@ exports.STATUS_MESSAGES = {
     },
 
     NOT_FOUND: {
+        BUDGET: 'Budget is not available in our system.',
         USERNAME: 'Username is not available in our system.',
         ACCESS_TYPE: 'Access Type is not available in our system.',
         USER: "You are not available in our system!",
@@ -112,6 +113,11 @@ exports.STATUS_MESSAGES = {
         ADDED: "Access type has been added successfully.",
         UPDATED: "Access type been updated successfully.",
         DELETED: "Access type been deleted successfully.",
+    },
+    BUDGET:{
+        ADDED: "Budget has been added successfully.",
+        UPDATED: "Budget has been updated successfully.",
+        DELETED: "Budget has been deleted successfully.",
     },
     ROLE: {
         ROLE_ADD: "Role has been added successfully.",
